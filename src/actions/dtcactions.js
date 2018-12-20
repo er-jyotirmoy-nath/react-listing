@@ -1,8 +1,8 @@
 import C from './constants';
 import axios from 'axios';
 import {addErrors} from './errorhandler';
-let serviceUrl = 'php/';
-//let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
+//let serviceUrl = 'php/';
+let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
 export const fetchDtcAll = ()=>(dispatch,getState)=>{
   axios.get(serviceUrl+'dtcDetails.php?getdtcfiles=get')
   .then((value) => {

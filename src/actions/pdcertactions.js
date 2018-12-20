@@ -2,8 +2,8 @@ import axios from 'axios';
 import C from './constants';
 import {addErrors} from './errorhandler';
 
-let serviceUrl = 'php/';
-//let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
+//let serviceUrl = 'php/';
+let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
 export const fetchCertAll = () => (dispatch,getState)=>{
   axios.get(serviceUrl +'/pdCertDetails.php?getpdcertfiles=get')
   .then((value) => {

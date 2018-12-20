@@ -1,8 +1,8 @@
 import axios from 'axios';
 import C from './constants';
 import { addErrors } from './errorhandler';
-let serviceUrl = 'php/';
-//let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
+//let serviceUrl = 'php/';
+let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
 export const fetchtmv3All = ()=> (dispatch,getState)=>{
   axios.get(serviceUrl+'tmv3Details.php?getTmv3Files=get')
   .then((value) => {

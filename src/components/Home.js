@@ -23,12 +23,31 @@ export default class Home extends Component {
                                 </Card.Header>
                                 <Card.Meta>
                                 </Card.Meta>
-                                <Card.Description>                                   
+                                <Card.Description>
+                                1111 and 1287: 1999
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                                 <div className='ui two buttons'>
-                                    <Button basic color='blue' role="link" href='#/tmv2'>Check Listings for NSF TMV2.</Button>    
+                                    <Button basic color='blue' role="link" href='#/tmv2'>Listings for NSF TMV2.</Button>    
+                                </div>
+                            </Card.Content>
+                        </Card>
+                        <Card>
+                            <Card.Content>
+                                <Image floated='right' size='small' src='img/tmv2.jpg' />
+                                <Card.Header>
+                                    NSF TMV2 (2017)
+                                </Card.Header>
+                                <Card.Meta>
+                                </Card.Meta>
+                                <Card.Description> 
+                                1111 and 1287: 2017
+                                </Card.Description>
+                            </Card.Content>
+                            <Card.Content extra>
+                                <div className='ui two buttons'>
+                                    <Button basic color='blue' role="link" href='#/tmv2_new'>Listings for NSF TMV2 (2017) Program.</Button>                                    
                                 </div>
                             </Card.Content>
                         </Card>
@@ -45,7 +64,7 @@ export default class Home extends Component {
                             </Card.Content>
                             <Card.Content extra>
                                 <div className='ui two buttons'>
-                                    <Button basic color='blue' role="link" href='#/tmv3'>Check Listings for NSF TMV3.</Button>    
+                                    <Button basic color='blue' role="link" href='#/tmv3'>Listings for NSF TMV3.</Button>    
                                 </div>
                             </Card.Content>
                         </Card>
@@ -62,7 +81,7 @@ export default class Home extends Component {
                             </Card.Content>
                             <Card.Content extra>
                                 <div className='ui two buttons'>
-                                    <Button basic color='blue' role="link" href='#/cias'>Check Listing for NSF CIAS.</Button>    
+                                    <Button basic color='blue' role="link" href='#/cias'>Listing for NSF CIAS.</Button>    
                                 </div>
                             </Card.Content>
                         </Card>
@@ -70,7 +89,7 @@ export default class Home extends Component {
                             <Card.Content>
                                 <Image floated='right' size='small' src='img/dtc.jpg' style={{ 'width': '30%' }} />
                                 <Card.Header>
-                                    NSF UKAS Product Certification
+                                    NSF Distribution Tempering valves
                                 </Card.Header>
                                 <Card.Meta>
                                 </Card.Meta>
@@ -79,27 +98,11 @@ export default class Home extends Component {
                             </Card.Content>
                             <Card.Content extra>
                                 <div className='ui two buttons'>
-                                    <Button basic color='blue' role="link" href='#/dtc'>Check Listings for NSF UKAS Product Certification.</Button>    
+                                    <Button basic color='blue' role="link" href='#/dtc'>Listings for NSF Distribution Tempering valves.</Button>    
                                 </div>
                             </Card.Content>
                         </Card>
-                        <Card>
-                            <Card.Content>
-                                <Image floated='right' size='small' src='img/Buildcert.jpg' />
-                                <Card.Header>
-                                    BS EN 15092
-                                </Card.Header>
-                                <Card.Meta>
-                                </Card.Meta>
-                                <Card.Description>                                   
-                                </Card.Description>
-                            </Card.Content>
-                            <Card.Content extra>
-                                <div className='ui two buttons'>
-                                    <Button basic color='blue' role="link" href='#/pdcert'> Check Listings for the Former BuildCert Program.</Button>                                    
-                                </div>
-                            </Card.Content>
-                        </Card>
+                        
                     </Card.Group>
          </div>
         </div>                 

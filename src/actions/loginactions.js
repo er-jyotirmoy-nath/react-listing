@@ -4,8 +4,8 @@ import {
 } from './errorhandler';
 import C from './constants';
 
-let serviceUrl = 'php/';
-//let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
+//let serviceUrl = 'php/';
+let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
 
 
 export const checkLogin = (send_data) => (dispatch,getState)=>{

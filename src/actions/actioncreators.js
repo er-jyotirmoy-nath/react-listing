@@ -2,8 +2,8 @@ import axios from 'axios';
 import C from './constants';
 import {addErrors} from './errorhandler';
 //Thunk is Higher order Function
-let serviceUrl = 'php/';
-//let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
+//let serviceUrl = 'php/';
+let serviceUrl = 'http://nsfaaws6.nsf.org/lab_control_v2/listings/php/';
 export const fetchtmv2All = ()=> (dispatch,getState)=>{
   let params = new FormData();
   params.append('filter','yes');

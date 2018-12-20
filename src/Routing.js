@@ -6,10 +6,10 @@ import App from './App';
 import Home from './components/Home';
 import Tmv2 from './components/Tmv2';
 import Tmv3 from './components/Tmv3';
-import Pdcert from './components/Pdcert';
+import Tmv2new from './components/Tmv2new';
 import Cias from './components/Cias';
 import Dtc from './components/Dtc';
-import Login from './components/Login';
+import Login from './admin/components/Login';
 import Admin from './components/Admin';
 const   Routing = ()=>{
     return (
@@ -18,7 +18,7 @@ const   Routing = ()=>{
               <IndexRoute component={Home} />
               <Route path={'/tmv2'} component={Tmv2}></Route>
               <Route path={'/tmv3'} component={Tmv3}></Route>
-              <Route path={'/pdcert'} component={Pdcert}></Route>
+              <Route path={'/tmv2_new'} component={Tmv2new}></Route>
               <Route path={'/cias'} component={Cias}></Route>
               <Route path={'/dtc'} component={Dtc}></Route>
               <Route path={'/login'} component={Login}></Route>
